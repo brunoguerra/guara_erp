@@ -1,0 +1,19 @@
+# encoding: UTF-8
+
+pt-BR:
+
+  new_module:
+    check_analyses: &attr_check_analyses
+      
+      
+  system:
+    modules: &system_modules
+      "gedi/new_module/check_analyses": "Conferêcia Remota de Imagens"
+      
+  activerecord:
+    attributes:
+      "gedi/new_module/check_analyses":
+        <<: *attr_check_analyses
+
+    models:
+      <<: *system_modules

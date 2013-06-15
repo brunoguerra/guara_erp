@@ -1,0 +1,1 @@
+//= require gedi/new_module
